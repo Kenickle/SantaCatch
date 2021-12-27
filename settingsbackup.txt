@@ -1,0 +1,22 @@
+class Settings:
+    """What do you think :/"""
+
+    def __init__(self):
+        """Init... game settings... :)"""
+        #Screen
+        self.screen_width = 800
+        self.screen_height = 500
+        self.bg_color = (50, 50, 50)
+        self.icon = "image assets/present.png"
+        self.background = "image assets/background.png"
+
+        #Player, please note that by default it is 16x32 pixels.
+        self.player_speed = .35
+        self.transform_width = 64
+        self.transform_height = 128
+        self.increment = 10
+
+        #Presents, please note that by default a present is 16x16.
+        self.present_speed = 0.3
+        self.present_width = 32
+        self.present_height = 32
